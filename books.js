@@ -1,3 +1,5 @@
+// an array/list of book recommendations
+
 const books = [
     {
         id: 1,
@@ -162,3 +164,48 @@ const books = [
         link: 'https://www.amazon.co.uk/Red-Queen-Victoria-Aveyard/dp/1409150720/ref=sr_1_1?crid=2GMLR2C9G097F&keywords=red+queen&qid=1703348909&s=books&sprefix=red+queen%2Cstripbooks%2C92&sr=1-1'
     }
 ]
+
+// filter books based on user's selected filters
+function activeBooks() {
+    const selectedAge = document.getElementById('readers-age').value
+    const selectedGenre = document.getElementById('genre').value 
+    const selectedSort = document.getElementById('sort').value
+
+const filteredBooks = books.filter(book => {
+    if(selectedAge && book.age != selectedAge) {
+        return false
+    } 
+    if(selectedGenre && book.genre != selectedGenre) {
+        return false
+    }
+    else {
+        return true
+    }
+})
+
+    displayBooks(filteredBooks)
+}
+// have the user's choice of options reflect on the page
+function displayBooks(books) {
+    const bookListContained = document.getElementById('bookList')
+    bookListContained.innerHTML = '';
+
+    books.forEach(book => {
+        const bookImg = document.createElement('img')
+        bookImg.src = book.img;
+        bookImg.alt = `image of ${book.title} by ${book.author}`
+        bookListContained.appendChild(bookImg)
+
+        const bookDesc = document.createElement('div')
+        bookDesc.textContent = `${book.title} by ${book.author}`
+        bookListContained.appendChild(bookDesc)
+    })
+}
+// sort book titles based on alphabetical order
+
+// event listeners that listen to change of events of each dropdown
+document.getElementById('readers-age').addEventListener('change', activeBooks)
+document.getElementById('genre').addEventListener('change', activeBooks)
+document.getElementById('sort').addEventListener('change', activeBooks)
+// display books without any filters
+displayBooks(books)

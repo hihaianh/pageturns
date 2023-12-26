@@ -1,19 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="books.css" />
+</head>
+<body>
+    
+</body>
+</html>
 <!-- nav bar -->
 
 <!-- banner/hero img -->
-<img>
 
 <!-- heading  -->
-<h1>Book Recommendations</h1>
+<h1 id="booksRecs">Book Recommendations</h1>
 <!-- filter by bar -->
 <div class='filter'>
     <p>Filter by</p>
-    <div class='custom-filter'>
-    <span>Select Categories</span>
-        <i class="fa-solid fa-angle-down fa-sm" style="color: #000000;"></i>
-    </div>
+   <!-- 3 select fields, each of them have own options (store these in arr) -->
+   <select name="readersAge" id="readers-age">
+    <option value="">Default</option>
+    <option value="earlyReader">Early Reader</option>
+    <option value="youngAdult">Young Adult</option>
+   </select>
+   <select name="genre" id="genre">
+    <option value="">All Genres</option>
+    <option value="thriller">Thriller</option>
+    <option value="sciFi">Sci-Fi</option>
+    <option value="fantasy">Fantasy</option>
+    <option value="romance">Romance</option>
+    <option value="sciFi">Children's Fiction</option>
+   </select>
+   <select name="sort" id="sort">
+    <option value="">Sort</option>
+    <option value="alpabetic">A - Z (Title)</option>
+    <option value="alphabeticAuthor">A - Z (Author)</option>
+    <option value="ezToHard">Reading Level: Easiest to Hardest</option>
+    <option value="hardToEz">Readling Level: Hardest to Easiest</option>
+   </select>
+   <!-- when user selects something from dropdowns store all values in different arr called 'activeFilters'
+
+   filter your original books arr using .filter() method -->
 </div>
 
 <!-- books listing by default at first -->
-
+<div id="booksList">
+    <!-- book recommendations -->
+</div>
 <!-- footer -->
+
+<script src="books.js"></script>
