@@ -186,7 +186,7 @@ const filteredBooks = books.filter(book => {
     displayBooks(filteredBooks)
 }
 // have the user's choice of options reflect on the page
-function displayBooks(books) {
+function displayBooks(books, targetElementId) {
     const bookListContained = document.getElementById('bookList')
     bookListContained.innerHTML = '';
 
@@ -208,4 +208,6 @@ document.getElementById('readers-age').addEventListener('change', activeBooks)
 document.getElementById('genre').addEventListener('change', activeBooks)
 document.getElementById('sort').addEventListener('change', activeBooks)
 // display books without any filters
-displayBooks(books)
+displayBooks(books);
+
+//params - user filters can be displayed when pasting word/link in address box instead of clicking/choosing filters from dropdowns/selects
