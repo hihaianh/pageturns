@@ -60,7 +60,7 @@ const books = [
         name: 'To Kill a Mockingbird',
         author: 'Harper Lee',
         genre: 'Thriller',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/81XBXp4UCaL._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Kill-Mockingbird-Vintage-Classics/dp/0099466732/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703343603&sr=1-1'
     },
@@ -69,7 +69,7 @@ const books = [
         name: 'The Girl on the Train',
         author: 'Paula Hawkins',
         genre: `Thriller`,
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/91C-XwsnjCS._AC_UY218_.jpg',
         link: 'https://www.amazon.co.uk/Girl-Train-Film-tie/dp/1784161756/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703343438&sr=1-1'
     },
@@ -78,7 +78,7 @@ const books = [
         name: 'Gone Girl',
         author: 'Gillian Flynn',
         genre: `Thriller`,
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/71NV0obX14L._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Gone-Girl-Gillian-Flynn/dp/1780228228/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703343503&sr=1-1'
     },
@@ -87,7 +87,7 @@ const books = [
         name: 'Divergent',
         author: 'Veronica Roth',
         genre: 'Sci-fi',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/71InXBGOesL._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Divergent-Box-Set-Books-1-4/dp/0008175500/ref=sr_1_1?crid=KIFGTKWMU2TI&keywords=divergent&qid=1703349006&s=books&sprefix=divergent%2Cstripbooks%2C84&sr=1-1'
     },
@@ -96,7 +96,7 @@ const books = [
         name: 'The Hunger Games',
         author: 'Suzanne Collins',
         genre: 'Sci-fi',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/51cBJqvZOdL._SY445_SX342_.jpg',
         link: 'https://www.amazon.co.uk/Hunger-Games-4-Book-Paperback-international/dp/0702313815/ref=sr_1_2?keywords=the+hunger+games&qid=1703349152&sr=8-2'
     },
@@ -105,7 +105,7 @@ const books = [
         name: 'Maze Runner',
         author: 'James Dashner',
         genre: 'Sci-fi',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/91utoCkFviL._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Runner-James-Dashner-Books-Collection/dp/1911490273/ref=sr_1_1?crid=SWW2UYUPPZG8&keywords=maze+runner&qid=1703348954&s=books&sprefix=maze+runner%2Cstripbooks%2C100&sr=1-1'
     },
@@ -114,7 +114,7 @@ const books = [
         name: 'Check & Mate',
         author: 'Ali Hazelwood',
         genre: 'Romance',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/81V8qs75clL._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Check-Mate-bestselling-author-Hypothesis/dp/1408727617/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703344548&sr=1-1'
     },
@@ -123,7 +123,7 @@ const books = [
         name: 'The Pumpkin Spice Cafe',
         author: 'Romance',
         genre: 'Laurie Gilmore',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/81SY28F1TzL._AC_UY218_.jpg',
         link: 'https://www.amazon.co.uk/Pumpkin-Spice-Caf%C3%A9-sunshine-romantic/dp/0008610673/ref=sr_1_1?crid=S4RH5JZUVDOJ&keywords=the+pumpkin+spice+cafe&qid=1703344658&s=books&sprefix=the+pumpkin+spice%2Cstripbooks%2C91&sr=1-1'
     },
@@ -132,7 +132,7 @@ const books = [
         name: 'Along for the Ride',
         author: 'Sarah Dessen',
         genre: 'Romance',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/81CgiOonl-L._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Along-Ride-Sarah-Dessen/dp/0141327480/ref=sr_1_6?crid=OH6GVNHCCDYT&keywords=sarah+dessen&qid=1703344728&s=books&sprefix=sarah+dessen%2Cstripbooks%2C82&sr=1-6'
     },
@@ -141,7 +141,7 @@ const books = [
         name: 'The Cruel Prince',
         author: 'Holly Black',
         genre: 'Fantasy',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/91TwOUsfb4L._AC_UY218_.jpg',
         link: 'https://www.amazon.co.uk/Cruel-Prince-Folk-Air/dp/1471407276/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703348061&sr=8-1'
     },
@@ -150,7 +150,7 @@ const books = [
         name: 'Children of Blood and Bone',
         author: 'Tomi Adeyemi',
         genre: 'Fantasy',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/91yR9j+YfaL._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Children-Blood-Bone-Orisha-Legacy/dp/1509871357/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703348242&sr=1-1'
     },
@@ -159,7 +159,7 @@ const books = [
         name: 'Red Queen',
         author: 'Victoria Aveyard',
         genre: 'Fantasy',
-        who: 'young adults',
+        who: 'Young Adults',
         image: 'https://m.media-amazon.com/images/I/517Iw+RkgiL._SY342_.jpg',
         link: 'https://www.amazon.co.uk/Red-Queen-Victoria-Aveyard/dp/1409150720/ref=sr_1_1?crid=2GMLR2C9G097F&keywords=red+queen&qid=1703348909&s=books&sprefix=red+queen%2Cstripbooks%2C92&sr=1-1'
     }
@@ -172,10 +172,10 @@ function activeBooks() {
     const selectedSort = document.getElementById('sort').value
 
 const filteredBooks = books.filter(book => {
-    if(selectedAge && book.age != selectedAge) {
+    if(selectedAge && book.who != selectedAge) {
         return false
     } 
-    if(selectedGenre && book.genre != selectedGenre) {
+    else if(selectedGenre && book.genre != selectedGenre) {
         return false
     }
     else {
@@ -186,18 +186,18 @@ const filteredBooks = books.filter(book => {
     displayBooks(filteredBooks)
 }
 // have the user's choice of options reflect on the page
-function displayBooks(books, targetElementId) {
+function displayBooks(books) {
     const bookListContained = document.getElementById('bookList')
     bookListContained.innerHTML = '';
 
     books.forEach(book => {
         const bookImg = document.createElement('img')
         bookImg.src = book.img;
-        bookImg.alt = `image of ${book.title} by ${book.author}`
+        bookImg.alt = `image of ${book.name} by ${book.author}`
         bookListContained.appendChild(bookImg)
 
         const bookDesc = document.createElement('div')
-        bookDesc.textContent = `${book.title} by ${book.author}`
+        bookDesc.textContent = `${book.name} by ${book.author}`
         bookListContained.appendChild(bookDesc)
     })
 }
