@@ -170,15 +170,30 @@ function activeBooks() {
     const selectedAge = document.getElementById('readers-age').value
     const selectedGenre = document.getElementById('genre').value 
     const selectedSort = document.getElementById('sort').value
+    //to check if it's recognising the user's selected values
     console.log({selectedAge, selectedGenre, selectedSort})
 const filteredBooks = books.filter(book => {
     if(selectedAge && book.who != selectedAge) {
         return false
     } 
-    else if(selectedGenre && book.genre != selectedGenre) {
+    if(selectedGenre && book.genre != selectedGenre) {
         return false
     }
     return true
+})
+// sort function - maybe need a for loop
+const sortedBooks = books.sort((a, b) => {
+    const sortAlpha = document.getElementById('alphabetic')
+    const sortAuthor = document.getElementById('alphabeticAuthor')
+    // sort book titles in alphabetical order
+    if (selectedSort == sortAlpha) {
+        a.name.localeCompare(b.name)
+    }
+    //sort books based on author's name (in alphabetical order)
+    if (selectedSort == sortAuthor) {
+        a.author.localeCompare(b.author)
+    }
+
 })
 
     displayBooks(filteredBooks)
@@ -208,10 +223,7 @@ function displayBooks(books) {
         bookListContained.appendChild(figure);
     })
 }
-// sort book titles based on alphabetical order
-const sortedBooks = books.sort(book => {
-    
-})
+
 // event listeners that listen to change of events of each dropdown
 document.getElementById('readers-age').addEventListener('change', activeBooks)
 document.getElementById('genre').addEventListener('change', activeBooks)

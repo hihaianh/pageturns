@@ -30,6 +30,22 @@ img {
     height: 400px;
 }
 
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #A9AFA3;
+    margin-bottom: 50px;
+}
+
+.filter select {
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
 .book-listing {
     margin: 0;
 }
