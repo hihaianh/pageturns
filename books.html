@@ -21,7 +21,7 @@
 <div class="hero-text">
 <p class="booksRecs"> &#128218; Chapter VII: Book Recommendations &#128218;</p>
 <p id="divider">∘₊✧──────────────────────────────✧₊∘</p>
-<p class="blurb">Explore the joy of reading and uncover timeless tales and modern classics recommended by our team. Once read, challenge your comprehension skills with our quizzes, designed to ... </p>
+<p class="blurb">Explore the joy of reading and uncover timeless tales and modern classics carefully selected by our team. Once read, challenge your comprehension skills with our quizzes, designed to test your understanding. Whether it be thriller, romance, or sci-fi, we have all the books that are a * must-read * all listed here. So, take a look!</p>
 </div>  
 </div>
 <!-- filter by bar -->
@@ -34,12 +34,12 @@
     <option value="youngAdult">Young Adult</option>
    </select>
    <select name="genre" id="genre">
-    <option value="">All Genres</option>
-    <option value="thriller">Thriller</option>
-    <option value="sciFi">Sci-Fi</option>
-    <option value="fantasy">Fantasy</option>
-    <option value="romance">Romance</option>
-    <option value="childrensFiction">Children's Fiction</option>
+    <option value="" class="green">All Genres</option>
+    <option value="thriller" class="green">Thriller</option>
+    <option value="sciFi" class="green">Sci-Fi</option>
+    <option value="fantasy" class="green">Fantasy</option>
+    <option value="romance" class="green">Romance</option>
+    <option value="childrensFiction" class="green">Children's Fiction</option>
    </select>
    <select name="sort" id="sort">
     <option value="">Sort</option>
@@ -48,9 +48,7 @@
     <option value="ezToHard">Reading Level: Easy to Difficult</option>
     <option value="hardToEz">Reading Level: Difficult to Easy</option>
    </select>
-   <!-- when user selects something from dropdowns store all values in different arr called 'activeFilters'
 
-   filter your original books arr using .filter() method -->
 </div>
 
 <!-- books listing by default at first -->
@@ -59,6 +57,7 @@
 </div>
 <!-- footer -->
 </body>
+
 <script src="books.js"></script>
 
 </html>

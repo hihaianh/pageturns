@@ -5,29 +5,32 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f9f8eb;
+    /* background-color: #f9f8eb; */
+    background-color: #FAF0E6;
     font-family: Arial, Helvetica, sans-serif
 }
 
 
 #bookList {
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
     padding: 10px;
 }
 #hero {
     display: flex;
     width: 100%;
-    height: 400px;
-    border-bottom: 1px black solid;
+    height: 440px;
+    background-color:#FAEBD7;
 }
 
 #hero-img {
     width: 30%;
-    height: 400px;
+    height: 380px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .ribbon {
@@ -73,8 +76,9 @@ body {
     font-size: 20px;
     initial-letter: 2;
     margin-bottom: 50px;
+    margin-left: 80px;
     width: 85%;
-    text-indent: 30px;
+    text-indent: 5px;
 }
 
 .blurb::first-letter {
@@ -84,11 +88,12 @@ body {
 
 .filter {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     padding-left: 50px;
-    padding-top: 60px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    /* background-color: #808876; */
+    background-color: #808876;
     margin-bottom: 50px;
     font-weight: 525;
 }
@@ -101,19 +106,18 @@ body {
     border: 2px solid black;
     color: black;
     font-weight: light;
+    cursor: pointer;
 }
 
-/* .filter select:after {
-
-} */
-
 .book-listing {
-    margin: 0;
+    width: 90%;
+    /* height: 90%; */
+    margin-bottom: 30px;
 }
 
 .book-listing img {
     width: 100%;
-    height: 70%;
+    height: 65%;
 }
 
 .book-listing figcaption, .book-listing p {
@@ -130,14 +134,63 @@ body {
     font-style: italic;
 }
 
+.caption-wrapper {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    min-height: 170px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-capt {
+    cursor: pointer;
+}
+
+.book-capt:hover {
+    color: #74A705;
+    transition: ease-in-out 0.2s;
+    text-decoration: underline;
+}
+
 .see-more {
-    background-color: #f9f8eb;
-    color: green;
+    background-color: #ffffff;
+    color: black;
     border: none;
     cursor: pointer;
-    margin-left: 300px;
+    /* margin-top: 20px; */
+}
+
+.btn-container {
+    display: flex;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+.btn-text {
+    width: 100%;
+    margin-top: 10px;
+    opacity: 0;
+    text-align: center;
+}
+
+.take-quiz {
+    border: none;
+    background-color: #ffffff;
+    /* margin-top: 20px; */
+
+}
+
+.take-quiz:hover {
+    /* color: #D8FF81; */
+    color: #74A705;
+    transition: 0.3s ease-out;
+    cursor: pointer;
 }
 
 .see-more:hover {
-    color: black;
+    /* color: #D8FF81; */
+    color: #74A705;
+    transition: 0.3s ease-out;
 }
